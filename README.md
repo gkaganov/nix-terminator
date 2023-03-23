@@ -24,4 +24,11 @@ inputs = {
   nixpkgs-jetty-9-4-45.url = github:nixos/nixpkgs/jetty-9.4.45;
 }
 ```
+## CLI Arguments
+0. name of the package to search
+1. location of the nix channel in which to search (the git HEAD will be changed so be careful!)
+
+```
+./main.rkt hello /tmp/nix-channel
+```
 
